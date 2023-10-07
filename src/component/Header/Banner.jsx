@@ -2,37 +2,21 @@
 
 const Banner = () => {
     return (
-        <div>
-              <div className="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl">
 
-
-<div className="w-full h-64 lg:w-1/2 lg:h-[600px]">
-  <img className="h-full w-full object-cover" src="https://i.ibb.co/3y2xWRM/female-african-american-speaker-giving-presentation-hall-university-workshop.jpg" alt="Winding mountain road" />
-</div>
-
-
-
-<div
-  className="max-w-lg bg-white md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-5 xl:mt-24 xl:ml-12">
-
-  <div className="flex flex-col p-12 md:px-16">
-    <p className='text-[#3BBCA7] font-bold my-5'>
-      DEVELOPED BY TO TEACHERS</p>
-    <h2 className="text-2xl font-medium uppercase text-[#072F60] lg:text-4xl">Experience a learning platform that take you next level</h2>
-    <p className="mt-4">
-      World-class training and development programs developed by top teachers
-    </p>
-
-    <div className="mt-8">
-      <button className="btn bg-[#3BBCA7;] md:w-1/2">Reed more</button>
-    </div>
+<div className="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
+  <div className="absolute inset-0">
+    <img src="https://i.ibb.co/JBrrFQx/speaker-business-meeting-conference-hall.jpg" alt="Winding mountain road" className="object-cover object-center w-full h-full" />
+    <div className="absolute inset-0 bg-black opacity-60"></div>
   </div>
-
+  
+  <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
+    <h1 className="text-3xl font-bold leading-tight mb-4 ">Connect With Our Expert And <br /> Start Learning Today</h1>
+    <p className="text-lg text-gray-300 mb-8">We are providing high-quality online courses to improve your skill. <br /> Our all instructors are highly experienced and experts.</p>
+    <a href="#" className="bg-[#FF630E] text-white hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Get Started</a>
+  </div>
 </div>
 
 
-</div>
-        </div>
     );
 };
 
