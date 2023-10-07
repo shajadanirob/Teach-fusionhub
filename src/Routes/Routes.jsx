@@ -15,6 +15,7 @@ const router = createBrowserRouter([
       children:[
         {
             path:'/',
+            errorElement:<Error></Error>,
             element:<Home></Home>,
             loader:() => fetch('/Data.json')
            
@@ -22,18 +23,22 @@ const router = createBrowserRouter([
         {
             path:'/course',
             errorElement:<Error></Error>,
-            element:<Course></Course>
+            element:<Course></Course>,
+            loader:() => fetch('/Data.json')
         },
         {
             path:'/about',
+            errorElement:<Error></Error>,
             element:<About></About>
         },
         {
             path:'/login',
+            errorElement:<Error></Error>,
             element:<Login></Login>
         },
         {
           path:'/plan',
+          errorElement:<Error></Error>,
           element:<MemberShip></MemberShip>
         }
       ]

@@ -1,9 +1,13 @@
+import CourseCard from "../../component/CourseAllcard/CourseCard";
+
+
 
 
 const Course = () => {
     return (
         <div>
-            <h1>this is course</h1>
+            
+         <CourseCard></CourseCard>
         </div>
     );
 };
