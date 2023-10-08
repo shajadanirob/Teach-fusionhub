@@ -5,7 +5,7 @@ const Testimonal = () => {
         <div className="max-w-screen-xl mx-auto px-8 md:px-16 lg:px24 py-5 my-10 space-y-10 lg:gap-12">
 
             <p className="text-center text-[#FF630E] font-semibold text-2xl my-20">TESTIMONIAL</p>
-            <h1 className="text-center text-[#130F40] text-4xl font-bold">What Says Our Students</h1>
+            <h1 className="text-center text-[#130F40] text-4xl font-bold">What Says Our Clients</h1>
             <div className="grid grid-cols-1  md:grid-cols-3 gap-10">
 
                 <div className="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
@@ -89,9 +89,7 @@ Adam Smith
                                     </svg>
                                 </div>
                             </div>
-                            <p className="block font-sans text-base font-light leading-relaxed text-blue-gray-900 antialiased">
-                            Graphics Designer
-                            </p>
+                           
                         </div>
                     </div>
                     <div className="mb-6 p-0">
@@ -182,9 +180,7 @@ Adam Smith
                                     </svg>
                                 </div>
                             </div>
-                            <p className="block font-sans text-base font-light leading-relaxed text-blue-gray-900 antialiased">
-                            Web Developer
-                            </p>
+                           
                         </div>
                     </div>
                     <div className="mb-6 p-0">
@@ -274,9 +270,7 @@ John Doe
                                     </svg>
                                 </div>
                             </div>
-                            <p className="block font-sans text-base font-light leading-relaxed text-blue-gray-900 antialiased">
-                            Affiliate Marketer
-                            </p>
+                          
                         </div>
                     </div>
                     <div className="mb-6 p-0">

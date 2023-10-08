@@ -5,7 +5,7 @@
       "image": "https://i.ibb.co/QnqwzsK/dangerous-hacker-with-his-team-doing-cyber-crimes-from-his-apartment.jpg",
       "description": "Learn the ins and outs of digital marketing strategies from industry.",
       "thumbnail": "https://i.ibb.co/7VDz483/group-creative-people-working-brainstorming-together.jpg",
-      "price": "$199",
+      "price": "$19",
       "details_page": "digital_marketing_workshop.html"
     },
     {
@@ -14,7 +14,7 @@
       "image": "https://i.ibb.co/qYVr1W6/modern-equipped-computer-lab.jpg",
       "description": "A comprehensive bootcamp for aspiring data scientists and analysts.",
       "thumbnail": "https://i.ibb.co/pb593tQ/business-person-looking-finance-graphs.jpg",
-      "price": "$299",
+      "price": "$15",
       "details_page": "data_science_bootcamp.html"
     },
     {
@@ -23,7 +23,7 @@
       "image": "https://i.ibb.co/fDtfR7Z/person-front-computer-working-html-1.jpg",
       "description": "Master the basics of web development with our online course.",
       "thumbnail": "https://i.ibb.co/YyQF599/pexels-negative-space-160107.jpg",
-      "price": "$149",
+      "price": "$16",
       "details_page": "web_development_course.html"
     },
     {
@@ -32,7 +32,7 @@
       "image": "https://i.ibb.co/5nMBLXN/pexels-andrea-piacquadio-3760093.jpg",
       "description": "Become a certified digital marketer with our comprehensive online.",
       "thumbnail": "https://i.ibb.co/tssBNvh/pexels-mikael-blomkvist-6476808.jpg",
-      "price": "$249",
+      "price": "$24",
       "details_page": "digital_marketing_certification.html"
     },
     {
@@ -41,7 +41,7 @@
       "image": "https://i.ibb.co/SrFhZNR/pexels-matheus-bertelli-3856027.jpg",
       "description": "Enhance your leadership skills with insights from renowned leaders.",
       "thumbnail": "https://i.ibb.co/6n0mkb3/pexels-fauxels-3183197.jpg",
-      "price": "$99",
+      "price": "$30",
       "details_page": "leadership_seminar.html"
     },
     {
@@ -50,7 +50,7 @@
       "image": "https://i.ibb.co/NSRr2Zd/pexels-vlada-karpovich-7433822.jpg",
       "description": "Get financial advice and strategies from experts in the field.",
       "thumbnail": "https://i.ibb.co/J7nkhQM/pexels-mikhail-nilov-8297478.jpg",
-      "price": "$79",
+      "price": "$20",
       "details_page": "financial_planning_workshop.html"
     },
     {
@@ -59,7 +59,7 @@
       "image": "https://i.ibb.co/5snV4VZ/pexels-pixabay-416405.jpg",
       "description": "Earn a globally recognized project management certification.",
       "thumbnail": "https://i.ibb.co/tpLHJbc/pexels-anete-lusina-5239790.jpg",
-      "price": "$349",
+      "price": "$34",
       "details_page": "project_management_certification.html"
     },
     {
@@ -68,7 +68,7 @@
       "image": "https://i.ibb.co/YpGBGJ3/pexels-tima-miroshnichenko-7567434.jpg",
       "description": "Become a certified data analyst with our intensive program.",
       "thumbnail": "https://i.ibb.co/k67Jc2w/pexels-tima-miroshnichenko-7567595.jpg",
-      "price": "$299",
+      "price": "$20",
       "details_page": "certified_data_analyst.html"
     },
     {
@@ -77,7 +77,7 @@
       "image": "https://i.ibb.co/ZG8HSWt/pexels-andrea-piacquadio-3861933.jpg",
       "description": "Receive personalized career guidance from experienced coaches.",
       "thumbnail": "https://i.ibb.co/K0yMzqv/pexels-mikael-blomkvist-6476260.jpg",
-      "price": "$199",
+      "price": "$19",
       "details_page": "career_coaching.html"
     },
     {
@@ -86,7 +86,7 @@
       "image": "https://i.ibb.co/RgPWgPy/pexels-nappy-935949.jpg",
       "description": "Mentoring for personal growth and life skills development.",
       "thumbnail": "https://i.ibb.co/drpM91q/pexels-vanessa-garcia-6325984.jpg",
-      "price": "$149",
+      "price": "$14",
       "details_page": "life_skills_mentoring.html"
     }
   ]

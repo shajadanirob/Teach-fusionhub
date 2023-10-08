@@ -1,20 +1,32 @@
 /* eslint-disable react/no-unknown-property */
 
+import { Link } from "react-router-dom";
+
 
 const MemberShip = () => {
     return (
-        <div className="  max-w-screen-xl mx-auto px-8 md:px-16 lg:px24 py-5 my-10 space-y-10 lg:gap-12">
+
+   
+
+        <div className="  max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10 space-y-10 lg:gap-12">
+
+<div className="relative h-[50vh] w-full">
+        <img src="https://i.ibb.co/H4YHCTN/pexels-denniz-futalan-3453047.jpg" alt="Background Image" className="absolute inset-0 w-full h-full object-cover filter blur-sm"/>
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div className="absolute inset-0 flex flex-col items-center justify-center">
+            <h1 className="text-4xl text-white font-bold">Membership Plans</h1>
+            <Link to='/' className="text-xl text-white mt-4">
+                <button >Home</button>
+            </Link>
+        </div>
+    </div>
+
+
+
             <section className="py-6 leading-7 text-gray-900 bg-white sm:py-12 md:py-16">
                 <div className="box-border px-4 mx-auto border-solid sm:px-6 md:px-6 lg:px-0 max-w-7xl">
 
-                    <div className="flex flex-col items-center leading-7 text-center text-gray-900 border-0 border-gray-200">
-                        <h2 id="pricing"
-                            className="box-border m-0 text-3xl font-semibold leading-tight tracking-tight text-black border-solid sm:text-4xl md:text-5xl">
-                            Simple, Transparent Pricing
-                        </h2>
-                        <p className="box-border mt-2 text-xl text-gray-900 border-solid sm:text-2xl">
-                        </p>
-                    </div>
+             
 
 
                     <div id="pricing"
@@ -41,7 +53,7 @@ const MemberShip = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                                         </path>
                                     </svg>
-                                    20 Courses Access
+                                    Access to a library of educational resources and articles.
                                 </li>
 
                                 <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
@@ -50,7 +62,7 @@ const MemberShip = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                                         </path>
                                     </svg>
-                                    Course Certificate
+                                    Weekly newsletter with educational tips and updates.
                                 </li>
 
                                 <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
@@ -59,7 +71,7 @@ const MemberShip = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                                         </path>
                                     </svg>
-                                    Exercise File
+                                    Limited access to live webinars and workshops.
                                 </li>
                                 <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
                                     <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
@@ -67,16 +79,9 @@ const MemberShip = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                                         </path>
                                     </svg>
-                                    Lifetime Access
+                                    Community forum participation.
                                 </li>
-                                <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
-                                    <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
-                                        fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
-                                        </path>
-                                    </svg>
-                                    Dedicated Support
-                                </li>
+                              
 
                             </ul>
                             <button
@@ -106,7 +111,7 @@ const MemberShip = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                                         </path>
                                     </svg>
-                                    50 Courses Access
+                                    Full access to the educational resource library.
                                 </li>
 
                                 <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
@@ -115,7 +120,7 @@ const MemberShip = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                                         </path>
                                     </svg>
-                                    Course Certificate
+                                    Weekly newsletter with in-depth articles and research.
                                 </li>
 
                                 <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
@@ -124,7 +129,7 @@ const MemberShip = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                                         </path>
                                     </svg>
-                                    Exercise File
+                                    Priority access to live webinars and workshops.
                                 </li>
 
                                 <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
@@ -133,16 +138,9 @@ const MemberShip = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                                         </path>
                                     </svg>
-                                    Lifetime Access
+                                    Community forum participation with a "Standard" badge
                                 </li>
-                                <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
-                                    <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
-                                        fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
-                                        </path>
-                                    </svg>
-                                    Dedicated Support
-                                </li>
+                           
                             </ul>
 
                             <button
@@ -171,7 +169,7 @@ const MemberShip = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                                         </path>
                                     </svg>
-                                    All Courses Access
+                                    Unlimited access to the educational resource library
                                 </li>
 
                                 <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
@@ -180,7 +178,7 @@ const MemberShip = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                                         </path>
                                     </svg>
-                                    Course Certificate
+                                    Personalized weekly newsletter tailored to your interests
                                 </li>
 
                                 <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
@@ -189,7 +187,7 @@ const MemberShip = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                                         </path>
                                     </svg>
-                                    Exercise File
+                                    VIP access to live webinars, workshops, and special events
                                 </li>
 
                                 <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
@@ -198,16 +196,9 @@ const MemberShip = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                                         </path>
                                     </svg>
-                                    Lifetime Access
+                                    Access to premium one-on-one tutoring or coaching sessions.
                                 </li>
-                                <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
-                                    <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
-                                        fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
-                                        </path>
-                                    </svg>
-                                    Dedicated Support
-                                </li>
+                        
                             </ul>
 
                             <button

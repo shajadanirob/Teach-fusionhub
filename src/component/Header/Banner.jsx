@@ -10,8 +10,8 @@ const Banner = () => {
   </div>
   
   <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
-    <h1 className="text-3xl font-bold leading-tight mb-4 ">Connect With Our Expert And <br /> Start Learning Today</h1>
-    <p className="text-lg text-gray-300 mb-8">We are providing high-quality online courses to improve your skill. <br /> Our all instructors are highly experienced and experts.</p>
+    <h1 className="text-3xl font-bold leading-tight mb-4 ">Elevate Education with Seamless <br /> Event Management</h1>
+    <p className="text-lg text-gray-300 mb-8">Unlock the potential of your educational events with our expert management <br /> services. From concept to execution, we deliver excellence.</p>
     <a href="#" className="bg-[#FF630E] text-white hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Get Started</a>
   </div>
 </div>

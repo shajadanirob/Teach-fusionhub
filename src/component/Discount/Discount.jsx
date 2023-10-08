@@ -8,7 +8,7 @@ const Discount = () => {
 
        
 <div className="w-full h-64 lg:w-1/2 lg:h-auto">
-    <img className="h-full w-full object-cover" src="https://easiblock.com/html/omexo/assets/images/img-1.jpg"/>
+    <img className="h-full w-full object-cover" src="https://i.ibb.co/5rCzyvQ/pexels-olena-bohovyk-3646172.jpg"/>
 </div>
 
 
@@ -19,7 +19,7 @@ const Discount = () => {
     <div className="flex flex-col p-12 md:px-16">
         <p className="text-xl font-medium uppercase text-[#FF630E] lg:text-4xl">LIMITED TIME OFFER</p>
         <h2 className="mt-4 text-3xl font-bold">
-        50% Discount On All Of Our New & Upcoming Courses
+        "Half-Price Extravaganza: 50% Off Event Bookings!
         </h2>
         <p className=" font-semibold my-5">Upgrade your wardrobe with a 50% discount on select fashion items. Shop now and save big before this limited-time deal ends!
 
@@ -29,7 +29,7 @@ const Discount = () => {
 .</p>
       <p className="text-3xl my-5 font-semibold">15 may - 20july</p>
       <div>
-        <button className="btn bg-[#FF630E] text-white">ENROLL NOW</button>
+        <button className="btn bg-[#FF630E] text-white">BOOK NOW</button>
       </div>
     </div>
    
