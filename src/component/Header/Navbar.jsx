@@ -9,7 +9,10 @@ const Navbar = () => {
         <li><NavLink to='/about'>About</NavLink></li>
 
         <li><NavLink to='/plan'>Membership Plans</NavLink></li>
-        <li><NavLink to='/login'>Login</NavLink></li>
+        <li><NavLink to='/contact'>Contact</NavLink></li>
+
+        <li><NavLink to='/blog'>Blog</NavLink></li>
+        <li><NavLink to='/profile'>Profile</NavLink></li>
     </>
     return (
         <div className="navbar bg-base-100">
@@ -37,7 +40,9 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <button className="btn bg-[#FF630E] text-white">Login</button>
+               <Link to='/login'>
+               <button className="btn bg-[#FF630E] text-white">Login</button>
+               </Link>
                 {/* <button className="btn bg-[#FF630E] text-white">Register</button> */}
             </div>
         </div>
