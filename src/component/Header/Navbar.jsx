@@ -1,7 +1,12 @@
 import { Link, NavLink } from "react-router-dom";
+import UseAuth from "../../Hooks/UseAuth";
+import toast from "react-hot-toast";
 
 
 const Navbar = () => {
+    const { user,logOut} = UseAuth();
+
+
     const NabLinks = <>
         <li><NavLink to='/'>Home</NavLink></li>
 
@@ -12,8 +17,22 @@ const Navbar = () => {
         <li><NavLink to='/contact'>Contact</NavLink></li>
 
         <li><NavLink to='/blog'>Blog</NavLink></li>
-        <li><NavLink to='/profile'>Profile</NavLink></li>
+        {
+            user? <li><NavLink to='/profile'>Profile</NavLink></li>:''
+        }
     </>
+
+const handlelogOut = e =>{
+    e.preventDefault()
+    logOut()
+    .then(result =>{
+        toast.success('logout successFully')
+        console.log(result)
+    })
+    .catch(error =>{
+        console.log(error)
+    })
+}
     return (
         <div className="navbar bg-base-100">
             <div className="navbar-start">
@@ -40,10 +59,30 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-               <Link to='/login'>
-               <button className="btn bg-[#FF630E] text-white">Login</button>
-               </Link>
-                {/* <button className="btn bg-[#FF630E] text-white">Register</button> */}
+              {
+                user?<div className="dropdown dropdown-end">
+                <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                    <div className="w-10 rounded-full">
+                        <img src={user.photoURL} alt={user.displayName} />
+                    </div>
+                </label>
+                <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li>
+                        <button className="btn btn-sm  btn-ghost">{user.displayName}</button>
+
+                    </li>
+                    <li>
+                       
+
+                    </li>
+                </ul>
+                <button className="btn bg-[#FF630E] text-white"
+                            onClick={handlelogOut}
+                        >Logout</button>
+            </div>: <> <Link to='/login'>
+                <button className="btn bg-[#FF630E] text-white">Login</button>
+                </Link></>
+              }
             </div>
         </div>
     );

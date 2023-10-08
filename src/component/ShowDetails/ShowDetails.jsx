@@ -20,6 +20,7 @@ const intId = parseInt(id)
     return (
         <div>
             <SingleDetails detail={detailsCard}></SingleDetails>
+            
         </div>
     );
 };

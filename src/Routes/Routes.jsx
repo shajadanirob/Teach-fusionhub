@@ -11,6 +11,8 @@ import Profile from "../Page/Profile/Profile";
 import Blog from "../Page/Blog/Blog";
 import Contact from "../Page/Contactus/Contact";
 import Register from "../Page/Register/Register";
+import PrivetRoute from "../PrivetRoute/PrivetRoute";
+
 
 
 const router = createBrowserRouter([
@@ -33,7 +35,9 @@ const router = createBrowserRouter([
       },
       {
         path: '/showDetails/:id',
-        element: <ShowDetails></ShowDetails>,
+        element: <PrivetRoute>
+          <ShowDetails></ShowDetails>
+          </PrivetRoute>,
         loader: () => fetch('/Data.json')
 
       },
@@ -67,7 +71,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/profile',
-        element: <Profile></Profile>
+        element: <PrivetRoute><Profile></Profile></PrivetRoute>
       }
     ]
   },
