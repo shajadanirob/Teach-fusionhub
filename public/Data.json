@@ -5,6 +5,7 @@
       "image": "https://i.ibb.co/QnqwzsK/dangerous-hacker-with-his-team-doing-cyber-crimes-from-his-apartment.jpg",
       "description": "Learn the ins and outs of digital marketing strategies from industry.",
       "thumbnail": "https://i.ibb.co/7VDz483/group-creative-people-working-brainstorming-together.jpg",
+      "pragraph":"Join us for an intensive Digital Marketing Workshop and unlock the secrets to success in the dynamic world of online marketing. In this comprehensive program, you'll learn the ins and outs of digital marketing strategies from industry experts. From search engine optimization (SEO) and social media marketing to email campaigns and advanced analytics, we'll equip you with the knowledge and tools to excel in the digital landscape.Whether you're a seasoned marketer looking to stay updated with the latest trends or a newcomer eager to kickstart your career, our workshop offers valuable insights, practical tips, and hands-on exercises to boost your digital marketing skills. Don't miss this opportunity to take your marketing game to the next level. Join us and become a digital marketing pro!",
       "price": "$19",
       "details_page": "digital_marketing_workshop.html"
     },
@@ -14,15 +15,17 @@
       "image": "https://i.ibb.co/qYVr1W6/modern-equipped-computer-lab.jpg",
       "description": "A comprehensive bootcamp for aspiring data scientists and analysts.",
       "thumbnail": "https://i.ibb.co/pb593tQ/business-person-looking-finance-graphs.jpg",
+      "pragraph":"Dive deep into the world of data science with our comprehensive Data Science Bootcamp. Whether you're an aspiring data scientist, analyst, or simply someone eager to harness the power of data, this program is designed to equip you with the skills and knowledge needed to excel in the field. Our bootcamp covers a wide range of data science topics, including data analysis, machine learning, data visualization, and big data technologies. With hands-on exercises and real-world projects, you'll gain practical experience and build a strong foundation in data science. Whether you're a beginner or an experienced data enthusiast, our bootcamp welcomes all levels of learners. Join us on this data-driven journey and unlock exciting career opportunities in the world of data science. Get ready to explore, analyze, and interpret data like a pro!",
       "price": "$15",
       "details_page": "data_science_bootcamp.html"
     },
     {
       "id": 3,
-      "title": "Web Development Fundamentals",
+      "title": "Web Developer seminer",
       "image": "https://i.ibb.co/fDtfR7Z/person-front-computer-working-html-1.jpg",
       "description": "Master the basics of web development with our online course.",
       "thumbnail": "https://i.ibb.co/YyQF599/pexels-negative-space-160107.jpg",
+      "pragraph":"Explore the dynamic world of web development and sharpen your coding skills at our Web Developer Seminar.Whether you're a curious beginner with no prior coding experience or an aspiring web developer looking to enhance your expertise, this seminar is tailored to meet your needs. Join us for an engaging journey into the essentials of web development, including HTML, CSS, JavaScript, and responsive design.Our experienced instructors will lead you through hands-on exercises and practical examples, empowering you to create your own web projects and gain valuable experience. By the end of the seminar, you'll have the knowledge and skills necessary to build stunning websites and web applications that captivate audiences.Don't miss this opportunity to kickstart your web development career or take your coding abilities to new heights. Join us at the Web Developer Seminar and embark on a path of creativity and innovation in the digital realm. Unlock the potential of web development and let your ideas come to life on the web!",
       "price": "$16",
       "details_page": "web_development_course.html"
     },
@@ -32,6 +35,7 @@
       "image": "https://i.ibb.co/5nMBLXN/pexels-andrea-piacquadio-3760093.jpg",
       "description": "Become a certified digital marketer with our comprehensive online.",
       "thumbnail": "https://i.ibb.co/tssBNvh/pexels-mikael-blomkvist-6476808.jpg",
+      "pragraph":"Elevate your career and expand your horizons in the ever-evolving realm of digital marketing with our comprehensive Digital Marketing Certification program.Our certification is designed for marketing professionals, entrepreneurs, and anyone passionate about mastering the art of online marketing. This program will equip you with advanced digital marketing strategies, advertising techniques, campaign optimization tactics, and much more.Throughout the certification journey, you'll immerse yourself in real-world marketing challenges, gain hands-on experience, and stay up-to-date with the latest industry trends. Upon successful completion, you'll earn a globally recognized digital marketing certification that sets you apart in the job market and opens doors to exciting career opportunities.Join us on this transformative path to becoming a certified digital marketing expert. Unleash your potential, enhance your marketing prowess, and make a significant impact in the dynamic world of online marketing. Don't miss this chance to advance your career and thrive in the digital era!",
       "price": "$24",
       "details_page": "digital_marketing_certification.html"
     },
@@ -41,6 +45,7 @@
       "image": "https://i.ibb.co/SrFhZNR/pexels-matheus-bertelli-3856027.jpg",
       "description": "Enhance your leadership skills with insights from renowned leaders.",
       "thumbnail": "https://i.ibb.co/6n0mkb3/pexels-fauxels-3183197.jpg",
+      "pragraph":"Enhance your leadership skills and gain insights from renowned leaders at our Leadership Seminar. Leadership is an art that can be cultivated, and our seminar is designed to inspire and empower both aspiring leaders and seasoned executives. Join us to learn from the experiences and wisdom of accomplished leaders who have navigated the complexities of leadership successfully.Throughout the seminar, you'll explore a range of leadership topics, including effective communication, team building, strategic thinking, and more. These insights will equip you to become a more influential and impactful leader in your organization and community.Don't miss this opportunity to elevate your leadership journey and connect with like-minded individuals who are passionate about leadership development. Join us at the Leadership Seminar and take the first step towards becoming a more effective and influential leader in your field!",
       "price": "$30",
       "details_page": "leadership_seminar.html"
     },
@@ -50,6 +55,7 @@
       "image": "https://i.ibb.co/NSRr2Zd/pexels-vlada-karpovich-7433822.jpg",
       "description": "Get financial advice and strategies from experts in the field.",
       "thumbnail": "https://i.ibb.co/J7nkhQM/pexels-mikhail-nilov-8297478.jpg",
+      "pragraph":"Take control of your financial future and gain valuable advice and strategies at our Financial Planning Workshop. Financial planning is a vital skill for achieving your financial goals and securing your future. Whether you're planning for retirement, aiming to invest wisely, or simply looking to manage your budget more effectively, our workshop is designed to provide you with the knowledge and tools needed to make informed financial decisions.Our expert instructors, who are well-versed in the world of finance, will guide you through practical exercises and offer insights into topics such as budgeting, investing, debt management, and retirement planning. By the end of the workshop, you'll have the confidence and knowledge to navigate the complexities of personal finance.Join us at the Financial Planning Workshop to gain financial independence, make informed financial decisions, and secure a brighter financial future for yourself and your loved ones. Don't miss this opportunity to take charge of your finances and achieve your financial goals!",
       "price": "$20",
       "details_page": "financial_planning_workshop.html"
     },
@@ -59,6 +65,7 @@
       "image": "https://i.ibb.co/5snV4VZ/pexels-pixabay-416405.jpg",
       "description": "Earn a globally recognized project management certification.",
       "thumbnail": "https://i.ibb.co/tpLHJbc/pexels-anete-lusina-5239790.jpg",
+      "pragraph":"Project management is a critical skill in today's dynamic business world, and our certification program is tailored to equip you with the knowledge and tools needed for successful project execution. Whether you're new to project management or a seasoned professional, this program will enhance your expertise and open doors to exciting career opportunities.Throughout the certification journey, you'll learn best practices, gain proficiency in project management tools and techniques, and tackle real-world project challenges. Our expert instructors will provide you with the skills and confidence to lead projects of all sizes and complexities.Don't miss the chance to enhance your project management skills, boost your career prospects, and earn a respected certification. Join us at the Project Management Certification program and take the first step toward becoming a proficient and certified project management expert!",
       "price": "$34",
       "details_page": "project_management_certification.html"
     },
@@ -68,6 +75,7 @@
       "image": "https://i.ibb.co/YpGBGJ3/pexels-tima-miroshnichenko-7567434.jpg",
       "description": "Become a certified data analyst with our intensive program.",
       "thumbnail": "https://i.ibb.co/k67Jc2w/pexels-tima-miroshnichenko-7567595.jpg",
+      "pragraph":"In today's data-driven landscape, the ability to collect, analyze, and interpret data is in high demand. Our Certified Data Analyst program is designed to equip you with the skills and knowledge needed to excel in this exciting field. Whether you're a data enthusiast looking to start your career or a professional seeking to enhance your data analysis capabilities, this program is your pathway to success.Throughout the program, you'll dive deep into data analysis techniques, statistical methods, data visualization, and data-driven decision-making. Hands-on training and real-world projects will provide you with practical experience and valuable insights. By the end of the program, you'll be well-prepared to leverage data for informed decision-making in various industries.Join us on this data-driven journey, and embark on a rewarding career as a Certified Data Analyst. Don't miss the opportunity to harness the power of data and make a significant impact in the field of data analysis!",
       "price": "$20",
       "details_page": "certified_data_analyst.html"
     },
@@ -77,6 +85,7 @@
       "image": "https://i.ibb.co/ZG8HSWt/pexels-andrea-piacquadio-3861933.jpg",
       "description": "Receive personalized career guidance from experienced coaches.",
       "thumbnail": "https://i.ibb.co/K0yMzqv/pexels-mikael-blomkvist-6476260.jpg",
+      "pragraph":"Career development is a lifelong journey, and our Career Coaching services are designed to provide you with the guidance and support needed to achieve your professional goals. Whether you're just starting your career, navigating a transition, or seeking to advance in your current role, our experienced coaches are here to help.Our personalized approach begins with understanding your unique strengths, interests, and aspirations. From there, our coaches will work closely with you to create a customized career plan that aligns with your objectives. Whether it's refining your resume, preparing for interviews, setting career milestones, or enhancing your leadership skills, our coaches have the expertise to assist you every step of the way.Invest in your career growth and take charge of your professional journey. Join us for Career Coaching and gain the confidence and strategies needed to thrive in your chosen field. Don't miss the opportunity to receive personalized guidance that can lead to career success and fulfillment.",
       "price": "$19",
       "details_page": "career_coaching.html"
     },
@@ -86,6 +95,7 @@
       "image": "https://i.ibb.co/RgPWgPy/pexels-nappy-935949.jpg",
       "description": "Mentoring for personal growth and life skills development.",
       "thumbnail": "https://i.ibb.co/drpM91q/pexels-vanessa-garcia-6325984.jpg",
+      "pragraph":"Life skills are essential for success in all aspects of life, from personal relationships to professional endeavors. Our Life Skills Mentoring program is designed to provide you with the guidance and support you need to cultivate essential life skills and reach your fullest potential.Our experienced mentors will work closely with you to identify your specific areas of interest and improvement. Whether you want to enhance your communication skills, develop emotional intelligence, boost your time management abilities, or build resilience, our mentors are here to guide you.Through one-on-one mentoring sessions, practical exercises, and personalized action plans, you'll gain valuable insights and tools to navigate life's challenges with confidence. Join us for Life Skills Mentoring and unlock the skills you need to thrive in both your personal and professional life.Don't miss the opportunity to invest in your personal growth and become a more empowered and resilient individual. Start your journey to acquiring essential life skills with us today!",
       "price": "$14",
       "details_page": "life_skills_mentoring.html"
     }

@@ -10,7 +10,7 @@ import WhyChoseus from "../../component/WhyChooseus/WhyChoseus";
 
 const Home = () => {
     return (
-        <div>
+        <div >
             <Banner></Banner>
             <Catagory></Catagory>
             <Services></Services>

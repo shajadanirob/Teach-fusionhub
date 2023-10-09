@@ -16,9 +16,14 @@ const Navbar = () => {
         <li><NavLink to='/plan'>Membership Plans</NavLink></li>
         <li><NavLink to='/contact'>Contact</NavLink></li>
 
-        <li><NavLink to='/blog'>Blog</NavLink></li>
+        
         {
-            user? <li><NavLink to='/profile'>Profile</NavLink></li>:''
+            user? 
+            <>
+            <li><NavLink to='/blog'>Blog</NavLink></li>
+            
+            <li><NavLink to='/profile'>Profile</NavLink></li>
+            </>:''
         }
     </>
 
@@ -60,26 +65,17 @@ const handlelogOut = e =>{
             </div>
             <div className="navbar-end">
               {
-                user?<div className="dropdown dropdown-end">
+                user?<div className="dropdown dropdown-end flex justify-center items-center">
                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                     <div className="w-10 rounded-full">
                         <img src={user.photoURL} alt={user.displayName} />
                     </div>
                 </label>
-                <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                    <li>
-                        <button className="btn btn-sm  btn-ghost">{user.displayName}</button>
-
-                    </li>
-                    <li>
-                       
-
-                    </li>
-                </ul>
                 <button className="btn bg-[#FF630E] text-white"
                             onClick={handlelogOut}
                         >Logout</button>
-            </div>: <> <Link to='/login'>
+                </div>
+                : <> <Link to='/login'>
                 <button className="btn bg-[#FF630E] text-white">Login</button>
                 </Link></>
               }

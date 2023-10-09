@@ -1,9 +1,15 @@
 /* eslint-disable react/no-unknown-property */
 
 import { Link } from "react-router-dom";
-
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 
 const MemberShip = () => {
+    useEffect(() =>{
+        Aos.init();
+          },[])
+
     return (
 
    
@@ -33,6 +39,8 @@ const MemberShip = () => {
                         className="grid grid-cols-1 gap-4 mt-4 leading-7 text-gray-900 border-0 border-gray-200 sm:mt-6 sm:gap-6 md:mt-8 md:gap-0 lg:grid-cols-3">
 
                         <div
+                        
+                        data-aos='zoom-in-up'
                             className="relative z-10 flex flex-col items-center max-w-md p-4 mx-auto my-0 border border-solid rounded-lg lg:-mr-3 sm:my-0 sm:p-6 md:my-8 md:p-8">
                             <h3
                                 className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl">
@@ -91,6 +99,7 @@ const MemberShip = () => {
                         </div>
 
                         <div
+                        data-aos='zoom-in-down'
                             className="relative z-10 flex flex-col items-center max-w-md p-4 mx-auto my-0 border border-solid rounded-lg lg:-mr-3 sm:my-0 sm:p-6 md:my-8 md:p-8">
                             <h3
                                 className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl">
@@ -149,6 +158,7 @@ const MemberShip = () => {
                             </button>
                         </div>
                         <div
+                        data-aos='zoom-in-up'
                             className="relative z-10 flex flex-col items-center max-w-md p-4 mx-auto my-0 border border-solid rounded-lg lg:-mr-3 sm:my-0 sm:p-6 md:my-8 md:p-8">
                             <h3
                                 className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl">

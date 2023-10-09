@@ -12,6 +12,8 @@ import Blog from "../Page/Blog/Blog";
 import Contact from "../Page/Contactus/Contact";
 import Register from "../Page/Register/Register";
 import PrivetRoute from "../PrivetRoute/PrivetRoute";
+import AllCourseDetails from "../component/CourseAllcard/AllCoursesDetails/AllCourseDetails";
+import BlogDetails from "../component/BlogCard/BlogDetails";
 
 
 
@@ -35,11 +37,20 @@ const router = createBrowserRouter([
       },
       {
         path: '/showDetails/:id',
+        errorElement: <Error></Error>,
         element: <PrivetRoute>
           <ShowDetails></ShowDetails>
           </PrivetRoute>,
         loader: () => fetch('/Data.json')
 
+      },
+      {
+        path:'/courseDetails/:id',
+        errorElement: <Error></Error>,
+        element:<PrivetRoute>
+          <AllCourseDetails></AllCourseDetails>
+        </PrivetRoute>,
+         loader: () => fetch('/Data.json')
       },
       {
         path: '/about',
@@ -63,11 +74,22 @@ const router = createBrowserRouter([
       },
       {
         path: '/contact',
+        errorElement: <Error></Error>,
         element: <Contact></Contact>
       },
       {
         path: '/blog',
-        element: <Blog></Blog>
+        errorElement: <Error></Error>,
+        element:<PrivetRoute> <Blog></Blog></PrivetRoute>,
+        loader: () => fetch('/Blog.json')
+      },
+      {
+        path:'/BlogDetails/:id',
+        errorElement: <Error></Error>,
+        element:  <PrivetRoute><BlogDetails></BlogDetails></PrivetRoute>,
+        loader: () => fetch('/Blog.json')
+        
+        
       },
       {
         path: '/profile',

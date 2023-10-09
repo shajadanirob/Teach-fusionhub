@@ -1,9 +1,10 @@
+import BlogCard from "../../component/BlogCard/BlogCard";
 
 
 const Blog = () => {
     return (
         <div>
-            <h1>This is blog</h1>
+           <BlogCard></BlogCard>
         </div>
     );
 };

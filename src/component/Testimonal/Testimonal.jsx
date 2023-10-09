@@ -1,14 +1,21 @@
 /* eslint-disable react/no-unknown-property */
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 
 const Testimonal = () => {
-    return (
-        <div className="max-w-screen-xl mx-auto px-8 md:px-16 lg:px24 py-5 my-10 space-y-10 lg:gap-12">
+    useEffect(() =>{
+        Aos.init();
+          },[])
 
-            <p className="text-center text-[#FF630E] font-semibold text-2xl my-20">TESTIMONIAL</p>
-            <h1 className="text-center text-[#130F40] text-4xl font-bold">What Says Our Clients</h1>
+    return (
+        <div className="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10 space-y-10 lg:gap-12">
+
+            <p data-aos='zoom-in-up' className="text-center text-[#FF630E] font-semibold text-2xl my-20">TESTIMONIAL</p>
+            <h1 data-aos='zoom-in-up' className="text-center text-[#130F40] text-4xl font-bold">What Says Our Clients</h1>
             <div className="grid grid-cols-1  md:grid-cols-3 gap-10">
 
-                <div className="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
+                <div data-aos='zoom-in-down' className="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
                     <div className="relative mx-0 mt-4 flex items-center gap-4 overflow-hidden rounded-xl bg-transparent bg-clip-border pt-0 pb-8 text-gray-700 shadow-none">
                         <img
                             src="https://easiblock.com/html/omexo/assets/images/client-1.jpg"
@@ -100,7 +107,7 @@ Adam Smith
                         </p>
                     </div>
                 </div>
-                <div className="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
+                <div data-aos='zoom-in-down' className="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
                     <div className="relative mx-0 mt-4 flex items-center gap-4 overflow-hidden rounded-xl bg-transparent bg-clip-border pt-0 pb-8 text-gray-700 shadow-none">
                         <img
                             src="https://easiblock.com/html/omexo/assets/images/client-2.jpg"
@@ -189,7 +196,7 @@ Adam Smith
                         </p>
                     </div>
                 </div>
-                <div className="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
+                <div data-aos='zoom-in-down' className="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
                     <div className="relative mx-0 mt-4 flex items-center gap-4 overflow-hidden rounded-xl bg-transparent bg-clip-border pt-0 pb-8 text-gray-700 shadow-none">
                         <img
                             src="https://easiblock.com/html/omexo/assets/images/client-3.jpg"
